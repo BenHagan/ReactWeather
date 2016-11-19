@@ -21,7 +21,6 @@ module.exports = {
     }, function(err) {
       throw new Error(err)
     }).then(function (res) {
-      debugger;
       return res.data.currently.temperature;
     }, function(err) {
       throw new Error(err)
